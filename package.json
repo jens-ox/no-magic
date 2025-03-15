@@ -4,5 +4,16 @@
   "type": "module",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "jiti": "^2.4.2",
+    "typescript-eslint": "^8.26.1"
+  }
 }
