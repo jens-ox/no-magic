@@ -1,0 +1,8 @@
+{
+  "name": "fullstack-starter",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ]
+}
