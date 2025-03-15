@@ -4,7 +4,8 @@
   "workspaces": ["frontend", "backend"],
   "scripts": {
     "lint": "eslint .",
-    "format": "biome check"
+    "format": "biome check",
+    "dev": "bun --filter '*' dev"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
