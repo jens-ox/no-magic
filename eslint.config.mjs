@@ -1,12 +1,12 @@
 // @ts-check
 
 import eslint from '@eslint/js'
-import tseslint from 'typescript-eslint'
-import globals from 'globals'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import tailwind from 'eslint-plugin-tailwindcss'
+import globals from 'globals'
+import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
   // base rules
@@ -41,7 +41,7 @@ export default tseslint.config(
       }
     }
   },
-  
+
   // frontend rules
   ...tailwind.configs['flat/recommended'],
   {
@@ -59,7 +59,5 @@ export default tseslint.config(
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]
     }
-  },
+  }
 )
-
-
