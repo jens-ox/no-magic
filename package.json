@@ -1,5 +1,5 @@
 {
-  "name": "fullstack-starter",
+  "name": "no-magic",
   "private": true,
   "workspaces": ["frontend", "backend"],
   "scripts": {
