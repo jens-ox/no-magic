@@ -1,11 +1,11 @@
 // @ts-check
 
 import eslint from '@eslint/js'
+import globals from 'globals'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import tailwind from 'eslint-plugin-tailwindcss'
-import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
@@ -18,6 +18,7 @@ export default tseslint.config(
   // typescript rules
   {
     rules: {
+      'sort-imports': 'error',
       '@typescript-eslint/restrict-template-expressions': 'off',
       '@typescript-eslint/no-unused-vars': [
         'error',
