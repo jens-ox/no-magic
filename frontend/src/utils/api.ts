@@ -1,6 +1,6 @@
+import type { ApiRoutes } from 'backend/src'
 import { QueryClient } from '@tanstack/react-query'
 import { hc } from 'hono/client'
-import type { ApiRoutes } from 'backend/src'
 
 export const queryClient = new QueryClient()
 
