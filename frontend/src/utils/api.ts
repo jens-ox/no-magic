@@ -4,4 +4,6 @@ import type { ApiRoutes } from 'backend/src'
 
 export const queryClient = new QueryClient()
 
-export const honoClient = hc<ApiRoutes>('http://localhost:3000')
+export const honoClient = hc<ApiRoutes>(
+  process.env.NODE_ENV === 'production' ? window.location.origin : 'http://localhost:3000'
+)

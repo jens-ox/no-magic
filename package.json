@@ -10,13 +10,16 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "eslint-plugin-tailwindcss": "^3.18.0",
     "jiti": "^2.4.2",
+    "rimraf": "^6.0.1",
     "typescript-eslint": "^8.26.1"
   },
   "private": true,
   "scripts": {
     "lint": "eslint .",
     "format": "biome check",
-    "dev": "bun --filter '*' dev"
+    "dev": "bun --filter '*' dev",
+    "build": "rimraf dist && bun --filter '*' build",
+    "start": "bun dist/index.js"
   },
   "workspaces": ["frontend", "backend"]
 }
