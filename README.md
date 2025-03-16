@@ -16,6 +16,7 @@ Fullstack setup with as little hidden complexity as possible.
 
 - [Hono](https://hono.dev/): Backend API framework
 - [React](https://react.dev/)
+- [Tanstack Router](https://tanstack.com/router/latest): Routing
 - [TailwindCSS](https://tailwindcss.com/): Styling
 - [Tanstack Query](https://tanstack.com/query/latest): State Management
 - [Vite](https://vite.dev/): Frontend Tooling, Frontend Dev Server and Bundling

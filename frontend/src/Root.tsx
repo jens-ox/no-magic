@@ -1,3 +1,4 @@
+import { Outlet } from '@tanstack/react-router'
 import { honoClient } from './utils/api'
 import { useQuery } from '@tanstack/react-query'
 
@@ -13,6 +14,7 @@ export const RootComponent = () => {
   return (
     <div>
       <h1>{data?.title}</h1>
+      <Outlet />
     </div>
   )
 }
