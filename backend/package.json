@@ -14,6 +14,7 @@
     "hono": "^4.7.4"
   },
   "scripts": {
-    "dev": "bun run index.ts"
+    "dev": "bun run src/index.ts --watch",
+    "build": "NODE_ENV=production bun build src/index.ts --outdir ../dist"
   }
 }
